@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #408080;
+}
+
+form {
+    width: 80%;
+    max-width: 500px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form > div {
+    margin-bottom: 10px;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: calc(100% - 10px);
+    padding: 6px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form .radio-group,
+form .role-group {
+    margin-bottom: 8px;
+}
+
+form .radio-group label,
+form .role-group label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+form .radio-group input[type="radio"],
+form .role-group input[type="radio"] {
+    margin-right: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000ff;
+}

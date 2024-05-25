@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <form action="/Register" method="post">
+        <h2>Registration Form</h2>
+        
+        <div>
+            <label>Username</label>
+            <input type="text" name="username"/>
+        </div>
+        
+        <div>
+            <label>Email</label>
+            <input type="email" name="email"/>
+        </div>
+
+        <div>
+            <label>Password</label>
+            <input type="password" name="password"/>
+        </div>
+        
+        <div>
+            <label>Gender</label>
+            <div class="radio-group">
+                <label><input type="radio" value="male" name="gender"/> Male</label>
+                <label><input type="radio" value="female" name="gender"/> Female</label>
+                <label><input type="radio" value="others" name="gender"/> Others</label>
+            </div>
+        </div>
+        
+        <div>
+            <label>Role</label>
+            <div class="role-group">
+                <label><input type="radio" value="admin" name="role"/> Admin</label>
+                <label><input type="radio" value="customer" name="role"/> Customer</label>
+            </div>
+        </div>
+        
+        <div>
+            <label>Address</label>
+            <textarea name="address"></textarea>
+        </div>
+        
+        <button type="submit">SUBMIT</button>    
+    </form>
+</body>
+</html>
